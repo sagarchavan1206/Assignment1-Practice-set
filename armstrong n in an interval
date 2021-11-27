@@ -1,0 +1,27 @@
+#write python program to find armstrong no in an interval
+f=int(input("Enter starting Index=="))
+e=int(input("Enter ending Index=="))
+for i in range(f,e):
+    n=i
+    g=0
+    while(n>0):
+        d=n%10
+        g=g+(d*d*d)
+        n=int(n/10)
+    if(g==i):
+        print("armstrong no==",i)
+
+o/p:-
+Enter starting Index==
+1
+Enter ending Index==
+1000
+armstrong no== 1
+armstrong no== 153
+armstrong no== 370
+armstrong no== 371
+armstrong no== 407
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
