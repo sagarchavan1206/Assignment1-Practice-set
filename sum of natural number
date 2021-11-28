@@ -1,0 +1,13 @@
+#write python program to find natural number  in an interval
+s=int(input("enter the starting value=="))
+e=int(input("enter the endting value=="))
+f=0
+for i in range(s,e+1):
+    f=f+i
+print("Sum of natural number==",f)
+
+o/p:-
+enter the starting value==10
+enter the endting value==15
+Sum of natural number== 75
+> 
