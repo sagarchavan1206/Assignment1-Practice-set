@@ -1,0 +1,29 @@
+#write python program to find prime numer in an interval
+s=int(input("enter the starting value=="))
+e=int(input("enter the endting value=="))
+print("Prime number==")
+for i in range(s,e):
+      f=0
+      for j in range(2,i):
+         if(i%j==0):
+              f=1
+              break
+      if(f==0):
+              print(i)
+
+o/p-
+ enter the starting value==10
+enter the endting value==50
+Prime number==
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+> 
